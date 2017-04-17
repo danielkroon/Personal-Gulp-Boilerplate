@@ -79,5 +79,5 @@ gulp.task("serve", ["watchFiles"]);
 
 // tricker the building proces 
 gulp.task("default", ["clean"], function() {
-  gulp.start("build");                                  // start wordt niet meer ondersteund in gulp 4
+  gulp.start("build");                                  // start will not work anymore in gulp 4
 });
